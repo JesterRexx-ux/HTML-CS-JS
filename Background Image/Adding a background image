@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html{
+                background: url("/home/jesterrexx/Pictures/Background Images/pexels-miguel-á-padriñán-1111367.jpg")no-repeat center center fixed;
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+    </body>
+</html>
