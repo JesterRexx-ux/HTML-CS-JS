@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #example1{
+                border:10px solid black;
+                padding: 35px;
+                background: url("/home/jesterrexx/Pictures/Background Images/pexels-tim-mossholder-2096622.jpg");
+                background-repeat: no-repeat;
+            }
+            #example2{
+                border:10px solid black;
+                padding: 35px;
+                background: url("/home/jesterrexx/Pictures/Background Images/pexels-magda-ehlers-1279813.jpg");
+                background-repeat: no-repeat;
+                background-origin: border-box;
+            }
+            #example3{
+                border:10px solid black;
+                padding: 35px;
+                background: url("/home/jesterrexx/Pictures/Background Images/pexels-giftpunditscom-1303081.jpg");
+                background-repeat: no-repeat;
+                background-origin: content-box;   
+            }
+        </style>
+    </head>
+    <body>
+        <p>No background-origin(Padding box is default):</p>
+        <div id="example1">
+            <h2>Landing On mars</h2>
+            <p>Para 1</p>
+            <p>Para 2</p>
+        </div>
+        <p>With background origin</p>
+        <div id="example2">
+            <h2>Making a civilization on the MOON..!!</h2>
+            <p>Para 1</p>
+            <p>Para 2</p>
+        </div>
+        <p> Background Origin:border box</p>
+        <div id="example3">
+            <h2>Wxploring The universe..!!</h2>
+            <p>Para 1</p>
+            <p>Para 2</p>
+        </div>
+    </body>
+</html>
