@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #grad1{
+                height:100px;
+                background: orangered;
+                background:linear-gradient(red,yellow 10%,green 20%);
+                background: -o-linear-gradient(0deg,red,yellow);
+                background: -moz-linear-gradient(0deg,red,yellow);
+            }
+            #grad2{
+                height:100px;
+                background: red;
+                background:linear-gradient(45deg,red,yellow 7%,green 10%);
+                background: -o-linear-gradient(90deg,red,yellow);
+                background: -moz-linear-gradient(90deg,red,yellow);
+            }
+            #grad3{
+                height:100px;
+                background: red;
+                background:linear-gradient(190deg,red,yellow 7%,green 10%);
+                background: -o-linear-gradient(180deg,red,yellow);
+                background: -moz-linear-gradient(180deg,red,yellow);
+            }
+            #grad4{
+                height:100px;
+                background: red;
+                background:linear-gradient(90deg,red,yellow 7%,green 10%);
+                background: -o-linear-gradient(-90deg,red,yellow);
+                background: -moz-linear-gradient(-90deg,red,yellow);
+            }
+        </style>
+    </head>
+    <body>
+        <h3>Lineaar Gradient -Using different Angles..!!</h3>
+        <div id="grad1" style="color: black ;text-align: center;">Repeating Gradieny</div><br>
+        <div id="grad2" style="color: black ;text-align: center;">Repeating Gradient</div><br>
+        <div id="grad3" style="color: black ;text-align: center;">Repeating Gradient</div><br>
+        <div id="grad4" style="color: black ;text-align: center;">Repeating Gradient</div><br>
+
+    </body>
+</html>
