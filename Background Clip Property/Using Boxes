@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #example1{
+                border:10px dotted black;
+                padding:35px;
+                background:yellow;
+            }
+            #example2{
+                border:10px dotted black;
+                padding:35px;
+                background:orangered;
+                background-clip: padding-box;
+            }
+            #example3{
+                border:10px dotted black;
+                padding:35px;
+                background: yellowgreen;
+                background-clip: content-box;
+            }
+        </style>
+    </head>
+    <body>
+        <p>No background-clip</p>
+        <div id="example1">
+            <h2>Evil brings Man together..!!</h2>
+            <p>Repeat...</p>
+        </div>
+        <p>Background-clip: padding Box</p>
+        <div id="example2">
+            <h2>Sucess is a lousy teacher. It seduces people into thinking that they can't loose..!!</h2>
+            <p>Repeat...</p>
+        </div>
+        <p>Background-clip: Content box</p>
+        <div id="example3">
+            <h2>I am not ashamed to confess that I am ignorant of what I do not know...!!!</h2>
+            <p>Repeat...</p>
+        </div>
+    </body>
+</html>
