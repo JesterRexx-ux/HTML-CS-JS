@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #grad1{
+                height:100px;
+                background: orangered;
+                background:linear-gradient(0deg,red,yellow);
+                background: -o-linear-gradient(0deg,red,yellow);
+                background: -moz-linear-gradient(0deg,red,yellow);
+            }
+            #grad2{
+                height:100px;
+                background: red;
+                background:linear-gradient(90deg,red,yellow);
+                background: -o-linear-gradient(90deg,red,yellow);
+                background: -moz-linear-gradient(90deg,red,yellow);
+            }
+            #grad3{
+                height:100px;
+                background: red;
+                background:linear-gradient(180deg,red,yellow);
+                background: -o-linear-gradient(180deg,red,yellow);
+                background: -moz-linear-gradient(180deg,red,yellow);
+            }
+            #grad4{
+                height:100px;
+                background: red;
+                background:linear-gradient(-900deg,red,yellow);
+                background: -o-linear-gradient(-90deg,red,yellow);
+                background: -moz-linear-gradient(-90deg,red,yellow);
+            }
+        </style>
+    </head>
+    <body>
+        <h3>Lineaar Gradient -Using different Angles..!!</h3>
+        <div id="grad1" style="color: black ;text-align: center;">0deg</div><br>
+        <div id="grad2" style="color: black ;text-align: center;">90deg</div><br>
+        <div id="grad3" style="color: black ;text-align: center;">190deg</div><br>
+        <div id="grad4" style="color: black ;text-align: center;">-90deg</div><br>
+
+    </body>
+</html>
