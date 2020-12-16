@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #grads1{
+                height:200px;
+                background: red;
+                background:linear-gradient(red,yellow);
+                background: -o-linear-gradient(red,yellow);
+                background: -moz-linear-gradient(red,yellow);
+            }
+        </style>
+    </head>
+    <body>
+        <h3>Lineaar Gradient -Left to Right</h3>
+        <p>Something </p>
+        <div id="grads1"></div>
+    </body>
+</html>
