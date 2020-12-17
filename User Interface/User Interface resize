@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                border:2px solid;/*This code show some user interface propety like resizing elements,outlines and box sizing
+                padding:20px;
+                width:300px;
+                resize:horizontal;
+                resize: both;
+                overflow: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <p><b>Note:-</b>Just Do it..!!</p>
+        <div>Let the user resize the width of this div element!</div>
+    </body>
+</html>
