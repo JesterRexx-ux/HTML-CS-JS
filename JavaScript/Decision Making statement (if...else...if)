@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <script type="text/javascript">
+        var book="maths";
+        if(book=="history"){
+            document.write("<b>History Book</b>");
+        }
+        else if(book=="maths"){
+            document.write("<b>Maths book</b>");
+        }
+        else if(book=="economics"){
+            document.write("<b>Economics book</b>");
+        }
+        else{
+            document.write("<b>Unknown Book</b>");
+        }
+        </script>
+        <p>Try.....</p>
+    </body>
+</html>
