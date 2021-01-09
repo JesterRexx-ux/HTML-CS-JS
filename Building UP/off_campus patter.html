@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,body,main{
+            height: 100%;
+            width: 100%;
+        }
+        body{
+            font-family: 'Roboto',sans-serif;
+        }
+        .title{
+            font-size: 2.5em;
+            text-align: center;
+        }
+        .box{
+            min-height: 150px;
+        }
+        .dark_blue{
+            background-color: darkblue;
+            color: grey;
+        }
+        .light_blue{
+            background-color: lightblue;
+        }
+        .green{
+            background-color: green;
+        }
+        .lime{
+            background-color: rgb(179,210,52);
+        }
+        .seaform{
+            background-color: rgb(77,190,161);
+        }
+        .red{
+            background-color: red;
+        }
+        .orange{
+            background-color: orange;
+        }
+        nav{
+            width: 300px;
+            height: 100%;
+            position: absolute;
+            transform: translate(-300px, 0);
+            transition: transform 0.3s ease;
+        }
+        nav.open{
+            transform: translate(0,0);
+        }
+        @media screen and (min-width: 600px){
+            nav{
+                position: relative;
+                transform: translate(0,0);
+            }
+            body{
+                display: flex;
+                flex-flow: row nowrap;
+            }
+            main{
+                width: auto;
+                flex-grow: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav id='drawer' class='dark_blue'>
+        <h2>Off Canvas</h2>
+        <p>Click outside the drawer to close</p>
+    </nav>
+    <main class='light_blue'>
+        <a id='menu'></a>
+        <p>CLick on the menu to open</p>
+    </main>
+    <script>
+        var menu=document.querySelector("#menu");
+        var main=document.querySelector("#main");
+        var drawer=document.querySelector("#drawer");
+
+        menu.addEventListener('click',function(e){
+            drawer.classList.toggle('open');
+        });
+        menu.addEventListener('click',function(){
+            drawer.classList.remove('open');
+        })
+    </script>
+</body>
+</html>
