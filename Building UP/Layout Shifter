@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FLuid Pattern</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        .container{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .box{
+            width:100%
+        }
+       .light_blue{
+           background:lightblue;
+       }
+       .orange{
+           background:orange;
+       }
+       .red{
+           background: red;
+       }
+       .dark_blue{
+           background: darkblue;
+       }
+       .green{
+           background: green;
+       }
+
+        @media screen and (min-width: 500px){
+            .dark_blue{
+                width:50%;
+            }   
+            #container2{
+                width:50%;
+            }
+        }
+        @media screen and (min-width: 600px){
+            .dark_blue{
+                width: 25%;
+                order:1;
+            }
+            #container2{
+                width: 50%;
+            }
+            .red{
+                width: 25%;
+                order: -1;
+            }
+        }
+        
+
+    </style>
+    
+</head>
+<body>
+    <div class='container'>
+        <div class='box dark_blue'>dark_blue</div>
+        <div class='container' id='container2'>
+        <div class='box light_blue'>light_blue</div>
+        <div class='box green'>green</div>
+        </div>
+        <div class='box red'>red</div>
+        
+    </div>   
+</body>
+</html>
